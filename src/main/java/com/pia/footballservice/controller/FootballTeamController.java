@@ -21,27 +21,11 @@ public class FootballTeamController {
     @Autowired
     public FootballTeamController(FootballTeamService footballTeamService){this.footballTeamService = footballTeamService;}
 
-    /*
-    //with players
-    @PostMapping
-    public ResponseEntity<FootballTeamDto> addTeam(@RequestBody final FootballTeamDto footballTeamDto){
-
-        FootballTeam footballTeam = footballTeamService.addFootballTeam(FootballTeam.from(footballTeamDto));
-
-       // FootballTeam footballTeam = footballTeamService.addPlayersToFootballTeam(FootballTeam.from(footballTeamDto));
-
-        return new ResponseEntity<>(FootballTeamDto.from(footballTeam), HttpStatus.OK);
-    }
-    */
-
-
-    //without players
     @PostMapping
     public ResponseEntity<PlainTeamDto> addTeam(@RequestBody final PlainTeamDto plainTeamDto){
         FootballTeam footballTeam = footballTeamService.addFootballTeam(FootballTeam.from(plainTeamDto));
         return new ResponseEntity<>(PlainTeamDto.from(footballTeam), HttpStatus.OK);
     }
-
 
     @GetMapping
     public ResponseEntity<List<FootballTeamDto>> getTeams(){
