@@ -107,27 +107,6 @@ public class FootballTeamService {
         return footballTeam;
     }
 
-/*
-    public FootballTeam addPlayersToFootballTeam(FootballTeam newFootballTeam){
-        FootballTeam footballTeam = addFootballTeam(newFootballTeam);
-        Player player;
-
-        for(int i = 0; i < footballTeam.getPlayers().size(); i++){
-            //System.out.println(footballTeam.getPlayers().get(i));
-            player = footballTeam.getPlayers().get(i);
-            playerService.addPlayer(player);
-            player.setFootballTeam(footballTeam);
-            footballTeam.addPlayer(player);
-
-           // if(Objects.nonNull(player.getFootballTeam())){
-           //     throw new PlayerIsAlreadyAssignedException(playerId,
-           //             player.getFootballTeam().getId());
-           // }
-        }
-        return footballTeam;
-    }
-*/
-
     @Transactional
     public FootballTeam removePlayerFromFootballTeam(Long footballTeamId, Long playerId){
         FootballTeam footballTeam = getFootballTeam(footballTeamId);
