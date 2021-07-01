@@ -1,0 +1,99 @@
+
+TEAMS
+
+{
+ "name": "Besiktas",
+ "league": "Super_League",
+ "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Be%C5%9Fikta%C5%9F_Football_Club_logo.svg/200px-Be%C5%9Fikta%C5%9F_Football_Club_logo.svg.png",
+ "city": "Istanbul",
+ "year": 1903,
+ "color1": "siyah",
+ "color2": "beyaz"
+}
+
+{
+ "name": "Fenerbahce",
+ "league": "Super_League",
+ "logo_url": "https://upload.wikimedia.org/wikipedia/tr/thumb/8/85/200px-Fenerbah%C3%A7e.png/150px-200px-Fenerbah%C3%A7e.png",
+ "city": "Istanbul",
+ "year": 1907,
+ "color1": "sari",
+ "color2": "lacivert"
+}
+
+{
+ "name": "Galatasaray",
+ "league": "Super_League",
+ "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Galatasaray_Star_Logo.svg.png/150px-Galatasaray_Star_Logo.svg.png",
+ "city": "Istanbul",
+ "year": 1905,
+ "color1": "sari",
+ "color2": "kirmizi"
+}
+
+{
+ "name": "Karsiyaka",
+ "league": "Third_League",
+ "logo_url": "https://upload.wikimedia.org/wikipedia/tr/thumb/8/89/Kar%C5%9F%C4%B1yaka_Spor_Kul%C3%BCb%C3%BC_%28logo%29.png/150px-Kar%C5%9F%C4%B1yaka_Spor_Kul%C3%BCb%C3%BC_%28logo%29.png",
+ "city": "Izmir",
+ "year": 1912,
+ "color1": "yesil",
+ "color2": "kirmizi"
+}
+
+{
+ "name": "Genclerbirligi",
+ "league": "First_League",
+ "logo_url": "https://upload.wikimedia.org/wikipedia/tr/thumb/f/f7/Genclerbirligi.png/150px-Genclerbirligi.png",
+ "city": "Ankara",
+ "year": 1923,
+ "color1": "kirmizi",
+ "color2": "siyah"
+}
+
+PLAYERS
+
+  {
+    "id": 6,
+    "name": "Ersin",
+    "surname": "Destanoglu",
+    "position": "GOALKEEPER",
+    "citizen": "NATIVE",
+    "number": 1
+  }
+
+  {
+    "id": 7,
+    "name": "Domagoj",
+    "surname": "Vida",
+    "position": "DEFENDER",
+    "citizen": "FOREIGN",
+    "number": 24
+  }
+
+  {
+    "id": 8,
+    "name": "Ridvan",
+    "surname": "Yilmaz",
+    "position": "DEFENDER",
+    "citizen": "NATIVE",
+    "number": 33
+  }
+
+  {
+    "id": 9,
+    "name": "Atiba",
+    "surname": "Hutchinson",
+    "position": "MIDFIELDER",
+    "citizen": "FOREIGN",
+    "number": 13
+  }
+
+  {
+    "id": 10,
+    "name": "Cycle",
+    "surname": "Larin",
+    "position": "FORWARD",
+    "citizen": "FOREIGN",
+    "number": 17
+  }
