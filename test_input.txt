@@ -54,7 +54,6 @@ TEAMS
 PLAYERS
 
   {
-    "id": 6,
     "name": "Ersin",
     "surname": "Destanoglu",
     "position": "GOALKEEPER",
@@ -63,7 +62,6 @@ PLAYERS
   }
 
   {
-    "id": 7,
     "name": "Domagoj",
     "surname": "Vida",
     "position": "DEFENDER",
@@ -72,7 +70,6 @@ PLAYERS
   }
 
   {
-    "id": 8,
     "name": "Ridvan",
     "surname": "Yilmaz",
     "position": "DEFENDER",
@@ -81,7 +78,6 @@ PLAYERS
   }
 
   {
-    "id": 9,
     "name": "Atiba",
     "surname": "Hutchinson",
     "position": "MIDFIELDER",
@@ -90,7 +86,6 @@ PLAYERS
   }
 
   {
-    "id": 10,
     "name": "Cycle",
     "surname": "Larin",
     "position": "FORWARD",
